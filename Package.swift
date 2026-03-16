@@ -22,7 +22,7 @@ let package = Package(
         // tree-sitter languages
         .package(
             url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
-            exact: "0.1.20"
+            from: "0.1.20"
         ),
         // CodeEditSymbols
         .package(
